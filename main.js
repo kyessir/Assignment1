@@ -1,4 +1,4 @@
-const allItems = document.querySelectorAll('.menu ul li a');
+/*const allItems = document.querySelectorAll('.menu ul li a');
 
 allItems.forEach(item => {
     item.addEventListener("click", function(e) {
@@ -7,4 +7,4 @@ allItems.forEach(item => {
         }
         this.classList.add("active");
     });
-});
+});*/
