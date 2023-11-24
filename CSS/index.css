@@ -10,6 +10,7 @@ body{
     padding-left: 40px;
 }
 
+/* header */
 .header1{
     position: fixed;
     top: 0;
@@ -52,6 +53,7 @@ body{
     width:100%;
 }
 
+/* home */
 .home {
     padding: 100px 20px 20px;
     padding-left: 40px;
@@ -61,6 +63,7 @@ body{
     margin: 40px;
 }
 
+/*profile page*/
 .profile h1{
     padding: 20px 40px;
     margin-left: 40px;
@@ -79,6 +82,7 @@ body{
     padding: 20px;
 }
 
+/*discography page*/
 .discography h1 {
     padding: 20px 40px;
     margin-left: 40px;
@@ -89,14 +93,14 @@ body{
     margin-left: 40px;
 }
 
-.ep_albums{
+.albums{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.ep_albums img{
+.albums img{
     width: 300px;
     max-height: 300px;
     border-radius: 20%;
@@ -116,7 +120,7 @@ body{
     border-radius: 20%;
     padding: 20px;
 }
-
+ /*music videos*/
 .videos{
     display: flex;
     flex-direction: row;
@@ -125,6 +129,12 @@ body{
     margin-left: 40px;
 }
 
+.songsVideos{
+    padding: 20px 40px;
+    margin-left: 40px;
+}
+ 
+/*footer*/
 footer{
     display: flex;
     flex-direction: row;
@@ -139,6 +149,7 @@ footer img{
     justify-content: right;
 }
 
+/* responsive menu*/
 .hamburger{
     display: none;
     cursor: pointer;
