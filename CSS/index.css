@@ -64,24 +64,58 @@ body{
 }
 
 /*profile page*/
-.profile h1{
+.profileList h1{
     padding: 20px 40px;
     margin-left: 40px;
+    display: flex;
 }
 
 .members{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    overflow:visible;
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px;
+    gap: 30px;
 }
 
-.members img{
-    max-width: 210px;
-    max-height: 270px;
-    padding: 20px;
+.members .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;;
+    object-fit: cover;
+    transition: 0.5s; 
 }
 
+.members .item:hover img{
+    transform: scale(1.2);
+}
+
+.members .item {
+    color: #c7c3c3;
+    position: relative;
+    transition: 0.5s;
+}
+
+.members .item .content{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 3px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.members .item:hover .content{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.members:hover .item:not(:hover){
+    filter: blur(8px);
+}
 /*discography page*/
 .discography h1 {
     padding: 20px 40px;
@@ -120,26 +154,17 @@ body{
     border-radius: 20%;
     padding: 20px;
 }
- /*music videos*/
-.videos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px 40px;
-    margin-left: 40px;
-}
 
-.songsVideos{
-    padding: 20px 40px;
-    margin-left: 40px;
-}
+ /*music videos*/
+
  
 /*footer*/
 footer{
+    padding-left: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: right;
+    width: 100%;
 }
 
 footer img{
@@ -147,6 +172,7 @@ footer img{
     max-height: 75px;
     padding: 20px;
     justify-content: right;
+
 }
 
 /* responsive menu*/
