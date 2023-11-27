@@ -8,9 +8,10 @@
 body{
     min-height: 100vh;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
-/* header */
+/* header -------------------------------------------------------------------------------------------------------------------------*/
 .header1{
     position: fixed;
     top: 0;
@@ -63,16 +64,15 @@ body{
     margin: 40px;
 }
 
-/*profile page*/
+/*profile page-------------------------------------------------------------------------------------------------------------------------------*/
 .profileList h1{
-    padding: 20px 40px;
+    padding: 20px 40px 0px;
     margin-left: 40px;
     display: flex;
 }
 
 .members{
     justify-content: center;
-    overflow:visible;
     width: 1150px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -116,7 +116,8 @@ body{
 .members:hover .item:not(:hover){
     filter: blur(8px);
 }
-/*discography page*/
+
+/*discography page --------------------------------------------------------------------------------------------------------------*/
 .discography h1 {
     padding: 20px 40px;
     margin-left: 40px;
@@ -158,7 +159,7 @@ body{
  /*music videos*/
 
  
-/*footer*/
+/*footer---------------------------------------------------------------------------------------------------------------------------------------------*/
 footer{
     padding-left: 0px;
     display: flex;
@@ -175,7 +176,7 @@ footer img{
 
 }
 
-/* responsive menu*/
+/* responsive menu---------------------------------------------------------------------------------------------------------------------*/
 .hamburger{
     display: none;
     cursor: pointer;
@@ -192,6 +193,11 @@ footer img{
 }
 
 @media(max-width:768px){
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .hamburger{
         display: block;
     }

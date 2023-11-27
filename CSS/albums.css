@@ -8,7 +8,6 @@
 body{
     min-height: 100vh;
     padding-left: 40px;
-    display: flex;
 }
 
 .header1{
@@ -83,4 +82,21 @@ body{
 .allSongs .content{
     padding:40px;
     margin-left: 40px;
+}
+
+/*footer---------------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer img{
+    max-width: 100%;
+    max-height: 75px;
+    padding: 20px;
+    justify-content: right;
+
 }
