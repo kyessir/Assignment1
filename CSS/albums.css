@@ -53,9 +53,34 @@ body{
     width:100%;
 }
 
-.songList img{
+#start{
+    display: block;
+    padding: 100px 20px 20px;
+    padding-left: 40px;
+}
+
+/*body--------------------------------------------------------------------------------------------------------------*/
+.allSongs{
+    padding: 100px 20px 20px;
+    padding-left: 40px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Songs{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.allSongs img{
     width: 300px;
     max-height: 300px;
     border-radius: 20%;
     padding: 20px;
+}
+
+.allSongs .content{
+    padding:40px;
+    margin-left: 40px;
 }
