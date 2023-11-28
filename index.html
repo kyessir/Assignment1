@@ -30,8 +30,8 @@
     <section class = "home" id = "home">
         <!-- adding a photo or video of the yearbook with link-->
         <div class = "yearbook">
-            <h1>NewJeans' Yearbook 22-23</h1>
-            <p><a href="https://weverseshop.io/en/shop/GL_USD/artists/82/categories/3316">Get them in store today!</a></p>
+            <img src="Pictures/Yearbook2223.jpg" alt="NewJeansYearbook">
+            <p>Get them in store today!</p>
         </div>
 
         <div class = "group_intro">
@@ -141,9 +141,14 @@
             </div>
     
             <div class="box">
-                <h3>Newletter</h3>
-                <input type="email" placeholder="your email" class="email">
-                <input type="submit" value="subscribe" class="btn">
+                <h3>Newsletter</h3>
+                <form id="emailForm" onsubmit="submitForm(event)">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            
+                <div id="thank-you-message">Thank you for submitting your email!</div>
             </div>
         </div>
 
