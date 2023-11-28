@@ -51,14 +51,19 @@
             </div>
     
             <div class="box">
-                <h3>Newletter</h3>
-                <input type="email" placeholder="your email" class="email">
-                <input type="submit" value="subscribe" class="btn">
+                <h3>Newsletter</h3>
+                <form id="emailForm" onsubmit="submitForm(event)">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            
+                <div id="thank-you-message">Thank you for submitting your email!</div>
             </div>
         </div>
 
         <p>Copyright© 2023 NewJeans. All rights reserved.</p>
     </footer>
 </body>
-<script src="main.js"></script>
+<script src="JS/main.js"></script>
 </html>

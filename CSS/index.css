@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /* Adding this will make the each box include its border width in sizing */
     font-family:'Gill Sans', 'Trebuchet MS', sans-serif;
 }
 
@@ -9,13 +12,111 @@ body{
     min-height: 100vh;
     padding-left: 40px;
     padding-right: 40px;
-    background-image: url('Pictures/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
     object-fit: cover;
 }
-/* home */
+
+/*slider-------------------------------------------------------------------------------------------------------------------------------*/
+.gallery {
+    width: 100%;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.gallery .master-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .master-div {
+    height: 100%;
+    width: 100%;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    position:relative;
+}
+  
+.gallery .master-div h3 {
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align:center;
+    line-height:30px;
+    background-color: #244667;
+    top: 50%;
+}
+  
+.gallery .master-div .arrow-left {
+    left:1%;
+    z-index:5;
+}
+  
+.gallery .master-div .arrow-right {
+    right: 1%;
+    z-index:5;
+}
+  
+.thumbnails {
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    position: absolute;
+    font-size: 18px;
+    z-index:3;
+}
+  
+p.first-msg {
+    line-height:550px;
+    text-align:center;
+    color: white;
+}
+  
+p.other-msg {
+    display:none;
+    line-height:550px;
+    text-align:center;
+    color: white;
+}
+  
+.gallery .master-div .over-lay {
+    height:100%;
+    width:100%;
+    position: absolute;
+    background-color: black;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0.5;
+    z-index:2;
+}
+  
+.thumbnails-img  {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:1;
+}
+  
+.thumbnails-img .other-img {
+    position: absolute;
+    display: none;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+/* home--------------------------------------------------------------------------------------------------------------------*/
 .home {
     padding: 100px 20px 20px;
     padding-left: 40px;

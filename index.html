@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-rC7aP/AeFROFYRiOXtTHvAzos3T5uM3kBOl1XUscYj4hPkvc4FMB1RGdA5R8LPIb" crossorigin="anonymous">
     <title>NewJeans</title>
 </head>
 
@@ -27,13 +26,27 @@
         </nav>
     </header>
 
-    <section class = "home" id = "home">
-        <!-- adding a photo or video of the yearbook with link-->
-        <div class = "yearbook">
-            <img src="Pictures/Yearbook2223.jpg" alt="NewJeansYearbook">
-            <p>Get them in store today!</p>
+    <!--Start Gallery-->
+    <div class="gallery">
+        <div class="master-div">
+            <h3 class="arrow-left">⬅</h3>
+            <h3 class="arrow-right">➡</h3>
+            <div class="over-lay"></div>
+            <div class="thumbnails">
+                <p class="selected first-msg"> NewJeans Yearbook22-23</p>
+                <p class="other-msg"> Get Up Album</p>
+                <p class="other-msg"> Hello there, I hope you like the slider-3 </p>
+            </div>
+            <div class="thumbnails-img">
+                <img class="selected-img first-img" src="Pictures/Yearbook2223.jpg" alt="thumbnail-1" />
+                <img class="other-img" src="Pictures/GetUpAlbum.jpg" alt="thumbnail-2" />
+                <img class="other-img" src="https://images.pexels.com/photos/951292/pexels-photo-951292.jpeg?cs=srgb&dl=blue-steel-window-frame-951292.jpg&fm=jpg" alt="thumbnail-3" />
+            </div>
         </div>
+    </div>
+    <!--End Gallery-->
 
+    <section class="home" id="home">
         <div class = "group_intro">
             <h2>FROM 2022.07.22 TO NOW</h2>
             <p  id = "profile">NewJeans (뉴진스) is a girl group by ADOR and HYBE Labels, consisting of 5 members; 
@@ -118,17 +131,17 @@
         <div class="box-container">
             <div class="box">
                 <h3>Quick links</h3>
-                <a href = "#home" class="links"> <i class="fax fa-arrow-right"></i>Home</a>
-                <a href = "#profile" class="links"> <i class="fax fa-arrow-right"></i>Profile</a>
-                <a href = "#discography" class="links"> <i class="fax fa-arrow-right"></i>Discography</a>
-                <a href = "shop.html" class="links"> <i class="fax fa-arrow-right"></i>Shop</a>
+                <a href = "#home" class="links">Home</a>
+                <a href = "#profile" class="links">Profile</a>
+                <a href = "#discography" class="links">Discography</a>
+                <a href = "shop.html" class="links">Shop</a>
             </div>
     
             <div class="box">
                 <h3>Contact info</h3>
-                <a href = "#" class="links"> <i class="fax fa-phone"></i>Phone</a>
-                <a href = "#" class="links"> <i class="fax fa-envelope"></i>Email</a>
-                <a href = "#" class="links"> <i class="fax fa-map-marker-alt"></i>Location</a>
+                <a href = "#" class="links">Phone</a>
+                <a href = "#" class="links">Email</a>
+                <a href = "#" class="links">Location</a>
             </div>
 
             <div class="box" class="sms">
@@ -145,15 +158,16 @@
                 <form id="emailForm" onsubmit="submitForm(event)">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Subscribe</button>
                 </form>
             
                 <div id="thank-you-message">Thank you for submitting your email!</div>
+                <br>
+                <p>Copyright© 2023 NewJeans. All rights reserved.</p>
             </div>
         </div>
-
-        <p>Copyright© 2023 NewJeans. All rights reserved.</p>
     </footer>
 </body>
-<script src="main.js"></script>
+<script src="JS/jquery.min.js"></script>
+<script src="JS/main.js"></script>
 </html>

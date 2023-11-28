@@ -6,9 +6,7 @@
 }
 
 body{
-    min-height: 100vh;
-    padding-left: 40px;
-    padding-right: 40px;
+    background-image: url('Pictures/background (2).jpg');
 }
 
 @media (max-width: 768px) {
