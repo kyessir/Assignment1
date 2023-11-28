@@ -1,0 +1,57 @@
+/*footer---------------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background: #fff;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 40px;
+}
+
+.box-container .box h3 {
+    color: var(--black);
+    padding: 10px 0;
+}
+
+.box-container .box h3 i{
+    color: #244667;
+}
+
+.box-container .box .links{
+    line-height: 1.8;
+    color: var(--light);
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-container .box .links i {
+    color: #244667;
+    padding-right: .5rem;
+}
+
+.box-container .box .links:hover i {
+    color: #244667;
+    padding-right: 10px;
+}
+
+#sms{
+    height: 4rem;
+    /*width: 4rem;
+    line-height: 4rem;*/
+    border-radius: .5rem;
+    color: var(--black);
+    margin-left: .2rem;
+}
+
+footer img{
+    max-width: 50px;;
+    max-height: 50px;
+    padding: 10px;
+}

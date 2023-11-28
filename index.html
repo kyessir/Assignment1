@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Normalise.css"> 
-    <link rel="stylesheet" href="CSS/index.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Normalise.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-rC7aP/AeFROFYRiOXtTHvAzos3T5uM3kBOl1XUscYj4hPkvc4FMB1RGdA5R8LPIb" crossorigin="anonymous">
     <title>NewJeans</title>
 </head>
 
@@ -16,8 +18,7 @@
         <nav class="navbar">
             <a href = "#profile">Profile</a>
             <a href = "#discography">Discography</a>
-            <!--Linking to Merch shop-->
-            <a href = "#" target="_blank"><button>Shop here!</button></a>
+            <a href = "shop.html"><button>Shop here!</button></a>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -114,14 +115,39 @@
     </section>
 
     <footer>
-        <h5>Copyright© 2023 NewJeans. All rights reserved.</h5>
-        <div>
-            <a href="https://www.instagram.com/newjeans_official/" ><img src="Pictures/instagram.png"></a>
-            <a href="https://www.facebook.com/official.newjeans/" ><img src="Pictures/facebook.png"></a>
-            <a href="https://www.tiktok.com/@newjeans_official" ><img src="Pictures/tik-tok.png"></a>
-            <a href="https://twitter.com/NewJeans_ADOR" ><img src="Pictures/twitter.png"></a>
-            <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" ><img src="Pictures/youtube.png"></a>
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href = "#home" class="links"> <i class="fax fa-arrow-right"></i>Home</a>
+                <a href = "#profile" class="links"> <i class="fax fa-arrow-right"></i>Profile</a>
+                <a href = "#discography" class="links"> <i class="fax fa-arrow-right"></i>Discography</a>
+                <a href = "shop.html" class="links"> <i class="fax fa-arrow-right"></i>Shop</a>
+            </div>
+    
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href = "#" class="links"> <i class="fax fa-phone"></i>Phone</a>
+                <a href = "#" class="links"> <i class="fax fa-envelope"></i>Email</a>
+                <a href = "#" class="links"> <i class="fax fa-map-marker-alt"></i>Location</a>
+            </div>
+
+            <div class="box" class="sms">
+                <h3>Follow for more content</h3>
+                <a href="https://www.instagram.com/newjeans_official/" target="_blank"><img src="Pictures/instagram.png"></a>
+                <a href="https://www.facebook.com/official.newjeans/" target="_blank"><img src="Pictures/facebook.png"></a>
+                <a href="https://www.tiktok.com/@newjeans_official" target="_blank"><img src="Pictures/tik-tok.png"></a>
+                <a href="https://twitter.com/NewJeans_ADOR" target="_blank"><img src="Pictures/twitter.png"></a>
+                <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" target="_blank"><img src="Pictures/youtube.png"></a>
+            </div>
+    
+            <div class="box">
+                <h3>Newletter</h3>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
         </div>
+
+        <p>Copyright© 2023 NewJeans. All rights reserved.</p>
     </footer>
 </body>
 <script src="main.js"></script>
