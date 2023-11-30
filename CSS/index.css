@@ -12,7 +12,6 @@ body{
     min-height: 100vh;
     padding-left: 40px;
     padding-right: 40px;
-    object-fit: cover;
 }
 
 /*slider-------------------------------------------------------------------------------------------------------------------------------*/
@@ -28,6 +27,10 @@ body{
 .gallery .master-div img {
     width: 100%;
     height: 100%;
+}
+
+#keep {
+    object-fit: cover;
 }
 
 .gallery .master-div {
@@ -190,29 +193,15 @@ p.other-msg {
     margin-left: 40px;
 }
 
-.albums{
+.covers{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.albums img{
+.covers img{
     width: 300px;
-    max-height: 300px;
-    border-radius: 20%;
-    padding: 20px;
-}
-
-.promo_songs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.promo_songs img{
-    max-width: 100%;
     max-height: 300px;
     border-radius: 20%;
     padding: 20px;
@@ -230,15 +219,27 @@ p.other-msg {
         display: grid;
         grid-template-columns: repeat(5, 2fr);
         grid-template-rows: 100px;
-        gap: 30px;
+        gap: 10px;
     }
 
     .members .item img{
         width: 100%;
-        height: 100%;
+        height: 100px;
         border-radius: 10px;;
         object-fit: cover;
         transition: 0.5s; 
     }
-    
+
+    .covers{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .covers img{
+        width: 50%;
+        border-radius: 20%;
+        padding: 5px;
+    }
 }

@@ -18,6 +18,7 @@
             <a href = "#profile">Profile</a>
             <a href = "#discography">Discography</a>
             <a href = "shop.html"><button>Shop here!</button></a>
+            <!-- To list out the nav bar when turned to mobile mode-->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -29,6 +30,7 @@
     <!--Start Gallery-->
     <div class="gallery">
         <div class="master-div">
+            <!-- Nav arrows-->
             <h3 class="arrow-left">⬅</h3>
             <h3 class="arrow-right">➡</h3>
             <div class="over-lay"></div>
@@ -38,12 +40,12 @@
             </div>
             <div class="thumbnails-img">
                 <img class="selected-img first-img" src="Pictures/Yearbook2223.jpg" alt="thumbnail-1" />
-                <img class="other-img" src="Pictures/GetUpAlbum.jpg" alt="thumbnail-2" />
-               
+                <img class="other-img" id="keep" src="Pictures/GetUpAlbum.jpg" alt="thumbnail-2" />     
         </div>
     </div>
     <!--End Gallery-->
 
+    <!-- Group's introduction-->
     <section class="home" id="home">
         <div class = "group_intro">
             <h2>FROM 2022.07.22 TO NOW</h2>
@@ -55,6 +57,7 @@
         </div>
     </section>
     
+    <!-- Individual member profiles -->
     <section class = "profileList">
         <h1>PROFILE</h1>
         <div class = "members">
@@ -71,7 +74,7 @@
                 <img src="Pictures/HANNI.jpg" alt="Hanni picture">
                 <div class = "content">
                     <h1>HANNI</h1>
-                    <div class = "des">
+                    <div class = "bd">
                         2004.10.06
                     </div>
                 </div>
@@ -80,7 +83,7 @@
                 <img src="Pictures/DANIELLE.jpg" alt="Danielle picture">
                 <div class = "content">
                     <h1>DANIELLE</h1>
-                    <div class = "des">
+                    <div class = "bd">
                         2005.04.11
                     </div>
                 </div>
@@ -89,7 +92,7 @@
                 <img src="Pictures/HAERIN.jpg" alt="Haerin picture">
                 <div class = "content">
                     <h1>HAERIN</h1>
-                    <div class = "des">
+                    <div class = "bd">
                         2006.05.11
                     </div>
                 </div>
@@ -98,7 +101,7 @@
                 <img src="Pictures/HYEIN.jpg" alt="Hyein picture">
                 <div class = "content">
                     <h1>HYEIN</h1>
-                    <div class = "des">
+                    <div class = "bd">
                         2008.04.21
                     </div>
                 </div>
@@ -109,13 +112,15 @@
     <section class = "discography"   id = "discography">
         <h1>DISCOGRAPHY</h1>
         <h2>EP albums</h2>
-        <div class = "albums">
+        <!-- Links to EP album covers -->
+        <div class = "covers">
             <a href = "albums.html"><img src = "Pictures/New Jeans by NewJeans.jpg" alt = "New Jeans album cover"></a>
             <a href = "albums.html#OMG"><img src = "Pictures/OMG by NewJeans.jpg" alt = "OMG album cover"></a>
             <a href = "albums.html#GetUp"><img src = "Pictures/Get Up by NewJeans.jpg" alt = "Get Up album cover"></a>
         </div>
         <h2>Promotional songs</h2>
-        <div class = "promo_songs">
+        <!-- Links to promotional song covers -->
+        <div class = "covers">
             <a href = "albums.html#TellMe"><img src="Pictures/PS_TellMe.jpg" alt="Tell Me (FRNK Remix)"></a>
             <a href = "albums.html#Zero"><img src="Pictures/PS_Zero.jpg" alt="Zero"></a>
             <a href = "albums.html#BeWhoYouAre"><img src="Pictures/PS_BeWhoYouAre.png" alt="Be Who You Are (ft. Jon Batiste, Camilo & J.I.D)"></a>
@@ -127,6 +132,7 @@
 
     <footer>
         <div class="box-container">
+            <!-- Quick links box -->
             <div class="box">
                 <h3>Quick links</h3>
                 <a href = "#home" class="links">Home</a>
@@ -135,14 +141,16 @@
                 <a href = "shop.html" class="links">Shop</a>
             </div>
     
+            <!-- Contact information links (all fake) -->
             <div class="box">
                 <h3>Contact info</h3>
-                <a href = "#" class="links">Phone</a>
-                <a href = "#" class="links">Email</a>
-                <a href = "#" class="links">Location</a>
+                <a href = "#" class="links">+82 2 12345678</a>
+                <a href = "#" class="links">newjeans@ador.com</a>
+                <a href = "#" class="links">42 Hangang-daero<br> Seoul, 04389,<br> South Korea</a>
             </div>
 
-            <div class="box" class="sms">
+            <!-- Social media icons with links -->
+            <div class="box">
                 <h3>Follow for more content</h3>
                 <a href="https://www.instagram.com/newjeans_official/" target="_blank"><img src="Pictures/instagram.png"></a>
                 <a href="https://www.facebook.com/official.newjeans/" target="_blank"><img src="Pictures/facebook.png"></a>
@@ -150,7 +158,8 @@
                 <a href="https://twitter.com/NewJeans_ADOR" target="_blank"><img src="Pictures/twitter.png"></a>
                 <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" target="_blank"><img src="Pictures/youtube.png"></a>
             </div>
-    
+            
+            <!-- Newsletter subscription form -->
             <div class="box">
                 <h3>Newsletter</h3>
                 <form id="emailForm" onsubmit="submitForm(event)">

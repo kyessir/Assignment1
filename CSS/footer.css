@@ -1,55 +1,49 @@
 /*footer---------------------------------------------------------------------------------------------------------------------------------------------*/
-footer{
+footer {
     background: #fff;
     padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: flex; /* Use a flex container to arrange child elements */
+    flex-direction: column; /* Arrange child elements in a column */
+    flex-wrap: wrap; /* Wrap elements to the next line if needed */
     width: 100%;
 }
 
-.box-container{
+/* Styling for the container of boxes within the footer */
+.box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 4fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 4fr)); /* Use responsive grid columns for box arrangement*/
+    gap: 40px; /* Set the gap between grid items */
 }
 
+/* Styling for the heading within each box */
 .box-container .box h3 {
     padding: 10px 0;
 }
 
-.box-container .box h3 i{
-    color: #244667;
-}
-
-.box-container .box .links{
-    /*line-height: 1.8;*/
-    padding: 10px 0;
+/* Styling for the links within each box */
+.box-container .box .links {
+    padding: 10px 0; /* Add padding to the links */
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
+    flex-direction: row; /* Arrange flex links in a row */
+    text-decoration: none; /* Remove underlines from links */
     color: black;
 }
 
+/* Styling for link hover effect */
 .box-container .box .links:hover {
-    color: #244667;
-    padding-right: 10px;
+    color: #244667; /* Change link color on hover to a shade of blue */
 }
 
-#sms{
-    height: 50px;
-    border-radius: .5rem;
-    margin-left: .2rem;
-}
-
-footer img{
-    max-width: 50px;;
+/* Styling for images within the footer */
+footer img {
+    max-width: 50px;
     max-height: 50px;
     padding: 10px;
 }
 
+/* Styling for the thank you message displayed after submission */
 #thank-you-message {
-    display: none;
-    color: #244667;
-    margin-top: 10px;
+    display: none; /* Initially hide the thank you message */
+    color: #244667; /* Set the color of the thank you message */
+    margin-top: 10px; /* Add margin to the top of the message */
 }

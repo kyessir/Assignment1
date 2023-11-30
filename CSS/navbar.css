@@ -49,7 +49,7 @@
     .navbar {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: self-end;
     }
     
     .navbar a {
