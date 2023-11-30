@@ -117,6 +117,7 @@ p.other-msg {
     right:0;
     bottom:0;
     left:0;
+    object-fit: contain
 }
 
 /* home--------------------------------------------------------------------------------------------------------------------*/
@@ -222,14 +223,6 @@ p.other-msg {
         gap: 10px;
     }
 
-    .members .item img{
-        width: 100%;
-        height: 100px;
-        border-radius: 10px;;
-        object-fit: cover;
-        transition: 0.5s; 
-    }
-
     .covers{
         display: flex;
         flex-direction: row;
@@ -238,8 +231,10 @@ p.other-msg {
     }
 
     .covers img{
-        width: 50%;
-        border-radius: 20%;
-        padding: 5px;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;;
+        object-fit: cover;
+        transition: 0.5s;
     }
 }
