@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Normalise.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <title>NewJeans</title>
+</head>
+<body>
+    <header class="header1">
+        <!--Nav Bar on top of page-->
+        <a href = "index.html#home"><img class = "logo" src = "Pictures/NewJeansLogo.jpg" alt="Logo"></a>
+        <nav class="navbar">
+            <a href = "index.html#profile">Profile</a>
+            <a href = "index.html#discography">Discography</a>
+            <a href = "shop.html"><button>Shop here!</button></a>
+            <!-- To list out the nav bar when turned to mobile mode-->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <footer>
+        <div class="box-container">
+            <!-- Quick links box -->
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href = "#home" class="links">Home</a>
+                <a href = "#profile" class="links">Profile</a>
+                <a href = "#discography" class="links">Discography</a>
+                <a href = "shop.html" class="links">Shop</a>
+            </div>
+    
+            <!-- Contact information links (all fake) -->
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href = "#" class="links">+82 2 12345678</a>
+                <a href = "#" class="links">newjeans@ador.com</a>
+                <a href = "#" class="links">42 Hangang-daero<br> Seoul, 04389,<br> South Korea</a>
+            </div>
+
+            <!-- Social media icons with links -->
+            <div class="box">
+                <h3>Follow for more content</h3>
+                <a href="https://www.instagram.com/newjeans_official/" target="_blank"><img src="Pictures/instagram.png"></a>
+                <a href="https://www.facebook.com/official.newjeans/" target="_blank"><img src="Pictures/facebook.png"></a>
+                <a href="https://www.tiktok.com/@newjeans_official" target="_blank"><img src="Pictures/tik-tok.png"></a>
+                <a href="https://twitter.com/NewJeans_ADOR" target="_blank"><img src="Pictures/twitter.png"></a>
+                <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" target="_blank"><img src="Pictures/youtube.png"></a>
+            </div>
+            
+            <!-- Newsletter subscription form -->
+            <div class="box">
+                <h3>Newsletter</h3>
+                <form id="emailForm" onsubmit="submitForm(event)">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            
+                <div id="thank-you-message">Thank you for submitting your email!</div>
+                <br>
+                <p>Copyright© 2023 NewJeans. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="JS/jquery.min.js"></script>
+<script src="JS/main.js"></script>
+</html>

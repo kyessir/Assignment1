@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "NewJeans Yearbook 22-23" ,
+        "price": 49.19,
+        "image": "Pictures/NJYBCover.png"
+    }, 
+    {
+        "id": 2,
+        "name": "NewJeans 2nd EP 'Get Up' Bunny Beach Bag ver." ,
+        "price": 16.40,
+        "image": "Pictures/AlbumGetUpCover.png"
+    }, 
+    {
+        "id": 3,
+        "name": "NewJeans 2nd EP 'Get Up' THE POWERPUFF GIRLS X NJ Box ver." ,
+        "price": 15.17,
+        "image": "Pictures/AlbumGetUpPPGCover.png"
+    }, 
+    {
+        "id": 4,
+        "name": "NewJeans 2nd EP 'Get Up' Weverse Albums ver." ,
+        "price": 8.93,
+        "image": "Pictures/AlbumGetUpWVCover.png"
+    }, 
+    {
+        "id": 5,
+        "name": "NewJeans 'OMG' Message Card ver." ,
+        "price": 12.13,
+        "image": "Pictures/AlbumOMGCover.png"
+    }, 
+    {
+        "id": 6,
+        "name": "NewJeans 'OMG' Weverse Albums ver." ,
+        "price": 8.93,
+        "image": "Pictures/AlbumOMGWVCover.png"
+    }, 
+    {
+        "id": 7,
+        "name": "NewJeans 1st EP 'New Jeans' Bluebook ver." ,
+        "price": 15.41,
+        "image": "Pictures/AlbumNJCover.png"
+    }, 
+    {
+        "id": 8,
+        "name": "NewJeans 1st EP 'New Jeans' Weverse Albums ver." ,
+        "price": 8.83,
+        "image": "Pictures/AlbumNJWVCover.png"
+    }
+]
