@@ -6,6 +6,7 @@ let close = document.querySelector('.close');
 iconCart.addEventListener('click', ()=>{
     if (cart.style.right == '-120%') {
         cart.style.right = '0';
+        container.style.transform = 'translateX(-400px)';
     } else {
         cart.style.right = '-120%';
         container.style.transform = 'translateX(0)';
@@ -19,11 +20,11 @@ close.addEventListener('click', ()=>{
 
 let products = null;
 //get data from json file
-fetch('products.json')
-.then(response => response.json())
-.then(data => {
-    products = data;
-    addDataToHTML();
+fetch('product.json')
+    .then(response => response.json())
+    .then(data => {
+        products = data;
+        addDataToHTML();
 })
 
 //show data in list
@@ -43,7 +44,7 @@ function addDataToHTML(){
             <div class = "price">$${product.price}</div>
             <button onclick="addCart(${product.id})">Add To Cart</button>`;
             listProductHTML.appendChild(newProduct);
-        })
+        });
     }
 }
 
@@ -94,9 +95,9 @@ function addCartToHTML(){
                         <div class = "price">$${product.price}/ 1 product</div>
                     </div>
                     <div class="quantity">
-                        <button onclick="changeQuantity(${product.id}, '-'>-</button>
+                        <button onclick="changeQuantity(${product.id}, '-')">-</button>
                         <span class="value">${product.quantity}</span>
-                        <button onclick="changeQuantity(${product.id}, '+'>+</button>
+                        <button onclick="changeQuantity(${product.id}, '+')">+</button>
                     </div>`;
                 listCartHTML.appendChild(newCart);
                 totalQuantity = totalQuantity + product.quantity;

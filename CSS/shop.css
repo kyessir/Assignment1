@@ -165,7 +165,7 @@ header .totalQuantity{
 
 .cart .listCart{
     padding: 20px;
-    overflow: auto;
+    overflow:scroll;
 }
 
 .cart .listCart::-webkit-scrollbar{
