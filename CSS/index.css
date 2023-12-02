@@ -149,7 +149,7 @@ p.other-msg {
 .members .item img{
     width: 100%;
     height: 100%;
-    border-radius: 20px;;
+    border-radius: 20px;
     object-fit: cover;
     transition: 0.5s; 
 }
@@ -214,15 +214,42 @@ p.other-msg {
         padding-right: 0px;
     }
 
+    /*profile------------------------------------------------------------------------------------------------------------------*/
     .members{
         justify-content: center;
-        width: 100%;
+        width: 90%;
         display: grid;
-        grid-template-columns: repeat(5, 2fr);
-        grid-template-rows: 100px;
+        grid-template-columns: repeat(2, 3fr);
+        grid-template-rows: 300px;
         gap: 10px;
+        padding-left: 85px;
     }
 
+    .members:hover .item:not(:hover){
+        filter: none;
+    }
+
+    .members .item img{
+        width: 200px;
+        height: 300px;
+        border-radius: 20px;
+        object-fit: cover;
+        transition: 0.5s; 
+    }
+
+    .members .item .content{
+        position: absolute;
+        color: #fff;
+        padding: 3px;
+        transform: translateY(100px);
+        opacity: 1;
+    }
+
+    .members #mid{
+        align-content: center;
+    }
+
+    /*album covers------------------------------------------------------------------------------------------------------------------*/
     .covers{
         display: flex;
         flex-direction: row;
@@ -233,8 +260,12 @@ p.other-msg {
     .covers img{
         width: 100%;
         height: 100%;
-        border-radius: 20px;;
+        border-radius: 20%;
         object-fit: cover;
         transition: 0.5s;
+    }
+
+    #discography{
+        padding-top: 50px;
     }
 }

@@ -23,6 +23,34 @@ a{
     text-decoration: none;
 }
 
+.top{
+    display: flex;
+    flex-direction:column;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.top .checkout{
+    /*display: inline-block;*/
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: grey;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.top .checkout:hover {
+    background-color: #244667;
+}
+
+.top .checkout:active{
+    transform: scale(0.95);
+}
 
 /* header with cart funciton---------------------------------------------------------------------------------------------------------------------------------*/
 .container{
@@ -221,6 +249,12 @@ header .totalQuantity{
         display: grid;
         grid-template-columns: repeat(2, 4fr);
         gap: 10px;
+    }
+
+    header .totalQuantity{
+        position: absolute;
+        top: 10;
+        left: 10;
     }
     
 }
