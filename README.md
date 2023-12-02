@@ -9,9 +9,7 @@ As a new fan, I want to search information about the members and learn more abou
 
 As a fan wanting to spend momey on their merch and albums, I want to buy their items offically. However, the original website does not offer a shop selling such items and the offical shop is located on another website.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Wireframw - https://www.figma.com/file/JqpJI3kiNb6qsuK2ALjyzi/Module_10257716F_CingSianKim_Assg1_wireframe?type=design&node-id=119%3A85&mode=design&t=Oz9IlJGHRC1Brxat-1
 
 ## Features
 
