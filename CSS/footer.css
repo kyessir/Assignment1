@@ -47,3 +47,11 @@ footer img {
     color: #244667; /* Set the color of the thank you message */
     margin-top: 10px; /* Add margin to the top of the message */
 }
+
+@media (max-width: 768px){
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr); /* Use responsive grid columns for box arrangement*/
+        gap: 40px; /* Set the gap between grid items */
+    }
+}
