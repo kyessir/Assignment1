@@ -1,6 +1,8 @@
 # Assignment1-S10257716-Cing Sian Kim
 NewJeans is a popular girl group rising aorund the world. My purpose for this revamp of their website (https://newjeans.kr/) is to allow newcommers and fans to understand and gain more knowledge about them, and also allow the group to garner more sales through the purchase of albums and merch. 
 
+Website available at https://kyessir.github.io/Assignment1/
+
 ## Design Process
  
 I designed this website with the focus for users to have a seemless and smooth experience and get wanted information from the website.
@@ -9,7 +11,7 @@ As a new fan, I want to search information about the members and learn more abou
 
 As a fan wanting to spend momey on their merch and albums, I want to buy their items offically. However, the original website does not offer a shop selling such items and the offical shop is located on another website.
 
-Wireframw - https://www.figma.com/file/JqpJI3kiNb6qsuK2ALjyzi/Module_10257716F_CingSianKim_Assg1_wireframe?type=design&node-id=119%3A85&mode=design&t=Oz9IlJGHRC1Brxat-1
+Wireframe - https://www.figma.com/file/JqpJI3kiNb6qsuK2ALjyzi/Module_10257716F_CingSianKim_Assg1_wireframe?type=design&node-id=119%3A85&mode=design&t=Oz9IlJGHRC1Brxat-1
 
 ## Features
 
