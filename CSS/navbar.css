@@ -3,8 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0px 100px 0px;
-    background: #ffffff;
+    padding: 0px 70px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,8 +11,8 @@
 }
 
 .header1 img{
-    max-height: 90px;
-    min-width: 120px;
+    max-height: 75px;
+    min-width: 100px;
 }
 
 .navbar a{

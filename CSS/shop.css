@@ -39,7 +39,7 @@ a{
     text-decoration: none;
     border-radius: 25px;
     color: #fff;
-    background-color: grey;
+    background-color: #6C584C;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
